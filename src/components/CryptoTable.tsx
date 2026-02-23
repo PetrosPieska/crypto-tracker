@@ -38,7 +38,8 @@ export default function CryptoTable({
   const headerButtonClass =
     "inline-flex items-center text-xs font-semibold tracking-wide uppercase text-slate-500";
 
-  return (
+  
+    return (
     <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
       <table className="w-full min-w-[650px] divide-y divide-slate-200 text-left">
         <thead className="bg-slate-50">
@@ -134,7 +135,7 @@ export default function CryptoTable({
                       : "text-orange-700 bg-orange-100"
                   }`}
                 >
-                  {coin.price_change_percentage_24h.toFixed(2)}%
+                  {coin.price_change_percentage_24h?.toFixed(2) ?? "N/A"}%
                 </span>
               </td>
             </tr>
