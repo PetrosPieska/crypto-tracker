@@ -1,4 +1,4 @@
-**Crypto Price Tracker**
+
 <img width="1920" height="898" alt="cryptoprice" src="https://github.com/user-attachments/assets/dc657782-f0ed-4ba9-bd7b-d9ce648e4dfe" />
 
 
