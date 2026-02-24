@@ -2,46 +2,66 @@
 <img width="1920" height="898" alt="cryptoprice" src="https://github.com/user-attachments/assets/dc657782-f0ed-4ba9-bd7b-d9ce648e4dfe" />
 
 
+# 📈 Crypto Price Tracker
 
-A clean and modern cryptocurrency market dashboard built with React, TypeScript, Tailwind CSS and the CoinGecko API.
-Displays real-time prices for the top 50 cryptocurrencies with features such as searching, sorting, currency switching (EUR/USD), refresh functionality and highlight cards for daily top gainers and losers.
+🌐 **Live Demo:**  
+👉 https://petrospieska.github.io/crypto-tracker/
 
+---
 
-Live demo: https://petrospieska.github.io/crypto-tracker/
+## 📌 Overview
 
-**Features**
-Market data
-Real-time data for the top 50 cryptocurrencies
-Support for EUR and USD
-Manual refresh button
-User interface
-Responsive layout built with Tailwind CSS
-Light theme with orange accent color
-Clear visual hierarchy and card-based structure
+Crypto Price Tracker is a modern cryptocurrency dashboard built with **React, TypeScript, Vite, and Tailwind CSS**.
 
-**Interaction and utilities**
-Search by asset name or symbol
-Click-to-sort table columns (Name, Price, Market Cap, 24h Change)
-Highlight cards for top daily gainer and top daily loser
-Loading and updating states
+The application fetches real-time market data from the **CoinGecko API** and presents it in a clean, responsive interface with sorting, searching, and currency switching functionality.
 
-**Technologies**
-React
-TypeScript
-Vite
-Tailwind CSS
-CoinGecko REST API
+This project was built to demonstrate:
+- Practical API integration
+- Strong TypeScript usage
+- Component-based architecture
+- Clean UI design with Tailwind
+- State management with React hooks
 
-**Purpose**
-This project demonstrates:
+---
 
-Component-driven front-end architecture
-Strong TypeScript usage
-Practical API integration
-State management with React hooks
-Clean UI layout with Tailwind CSS
-Realistic dashboard functionality
-Suitable for showcasing front-end development skills in a portfolio or job application.
+## 🛠 Tech Stack
+
+- ⚛ React
+- 🟦 TypeScript
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🌍 CoinGecko REST API
+
+---
+
+## ✨ Features
+
+- 🔎 Search cryptocurrencies by name or symbol  
+- 📊 Sort by price, market cap, or 24h change  
+- 💱 Currency toggle (EUR / USD)  
+- 🔄 Manual refresh functionality  
+- 📱 Fully responsive layout  
+- 🟢 Clear visual indicators for daily gainers and losers  
+
+---
+
+## 🧠 Technical Highlights
+
+- Strongly typed API response handling
+- Defensive rendering to prevent runtime crashes
+- Clean separation between service layer and UI components
+- Efficient state management using React hooks
+- Table sorting logic with reusable utility functions
+
+---
+
+## 🚀 Getting Started (Development)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PetrosPieska/crypto-tracker.git
+cd crypto-tracker
 
 **Author**
 
